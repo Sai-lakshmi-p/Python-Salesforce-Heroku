@@ -1,4 +1,4 @@
-web: gunicorn salesforce:app
+web: gunicorn app:app
 
 
 
