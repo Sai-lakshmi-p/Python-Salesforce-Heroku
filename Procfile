@@ -1,1 +1,2 @@
-web: python testp4.py
+worker: python testp4.py
+
