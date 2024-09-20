@@ -1,2 +1,4 @@
-worker: python testp4.py
+web: gunicorn app:app
+
+
 
