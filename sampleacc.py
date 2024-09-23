@@ -60,7 +60,7 @@ def fetch_accounts():
 
 
 # Route to display the Salesforce records
-@app.route('/accounts')
+@app.route('/')
 def index():
     accounts = fetch_accounts()
     return jsonify(accounts)
