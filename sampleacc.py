@@ -6,17 +6,11 @@ import os
 app = Flask(__name__)
 
 # Environment variables for Connected App
-SF_USERNAME = os.getenv('sailakshmi@salesforce.com')
-SF_PASSWORD = os.getenv('Welcome$2024')
-SF_SECURITY_TOKEN = os.getenv('QqtNVG1L466zl4fJqnQmUm2Z')
-SF_CLIENT_ID = os.getenv(
-    '3MVG9fe4g9fhX0E4eEi0k1.NeeMFJ934LpNVtnq4dQtwHMxO2aqtvxl'
-    '0rmQleyR_Dr2tQRUriZIBH84IRVakt'
-)
-SF_CLIENT_SECRET = os.getenv(
-    '27D317E58AB814ABABAB8A1748FD6915A93034BEF3733E17403C439'
-    '3AB2FC2C3'
-)
+SF_USERNAME = os.getenv('SF_USERNAME')   
+SF_PASSWORD = os.getenv('SF_PASSWORD')  
+SF_SECURITY_TOKEN = os.getenv('SF_SECURITY_TOKEN')  
+SF_CLIENT_ID = os.getenv('SF_CLIENT_ID')  
+SF_CLIENT_SECRET = os.getenv('SF_CLIENT_SECRET')  
 SF_DOMAIN = 'login'  # 'login' for production, 'test' for sandbox
 
 # Salesforce token URL
